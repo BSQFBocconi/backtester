@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Environments
+.venv/
+
+# Tools
+.pytest_cache/
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Data files (gathered locally, not versioned)
+data/*
+!data/.gitkeep
+
+# Secrets (API keys, tokens): never commit
+.env
+.env.*
