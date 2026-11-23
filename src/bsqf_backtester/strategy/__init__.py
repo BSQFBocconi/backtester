@@ -6,3 +6,4 @@ here; members' own strategies live in their own scripts.
 """
 
 from .base import Strategy
+from .context import StrategyContext
